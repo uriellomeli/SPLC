@@ -1,4 +1,6 @@
-# SPLC
-Example with the Southern Poverty Law Center data.
+# Southern Poverty Law Center
 
-Testing.
+The Southern Poverty Law Center (SPLC) tracks hate and antigoverment groups across the United States since 2000. They make the data available from their website (https://www.splcenter.org/hate-map). 
+Here, I joined the data from 2000 to 2023 in a .RData file and then plotted in a US map.
+
+
