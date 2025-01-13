@@ -10,13 +10,13 @@ We want to know:
 
 3. Which hate ideology or ideologies have been most identified between 2000 and 2023?
 
-## Data structure
+## SLC Data
 The joined SPLC Hate Map dataset covers the period from 2000 to 2023. It has 21,564 rows and 8 columns, and provides critical data into hate groups across the United States. Its structure includes variables like title, city, state, group, ideology, headquarters, statewide, and year. The data folder contains the raw data as well as the aggreate data to answer the previous questions. To replicate the results use the script splc.R in the scripts folder.
 
 **In 2023, SPLC identified 1,430 hate groups, 205 more groups than in 2022 (1,225) and 831 more groups than in 2000 (599). California, Texas, and Florida are the states with the most hate groups identified in the period, with 1,656, 1,402, and 1,383 respectively. Lastly, Neo-Nazis (3,352), the Ku Klux Klan (2,840), and White Nationalist groups (2,711) are the most hate ideologies identified from 2000 to 2023.**
 
-### Strengths of the SPLC data
-The dataset contains information, including temporal (year) and geographic (city, state) variables, and classifications of hate group ideology (ideology). This could be useful for diverse applications, including spatiotemporal analysis and policy development. The aggregate data use to create the figures was created following tidy-data principles and it's saved as a csv file so it can be accessible and compatible with most statistical software and programming languages, including R, Python, and SPSS.
+### Data structure
+The dataset contains information, including temporal (year) and geographic (city, state) variables, and classifications of hate group ideology (ideology). This could be useful for diverse applications, including spatiotemporal analysis and policy development. The aggregate data use to create the figures was created following tidy-data principles and it's saved as a csv file so it can be accessible and compatible with most statistical software and programming languages, including R, Python, and SPSS. You will find both aggregate file in the data folder.
 
 ### Challenges to reusability
 While the dataset includes clear column names, the metadata lacks crucial details. For instance, the definitions of some columns, such as group, headquarters, and statewide, are unclear. These need to be find at the SPLC website (https://www.splcenter.org/frequently-asked-questions-about-hate-and-antigovernment-groups#hate-antigovernment). NA values in these columns further complicate interpretation and reduces the dataset’s utility for researchers needing complete records.
