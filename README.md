@@ -5,7 +5,7 @@ Each year since 1990, the SPLC has published an annual census of hate groups and
 ## Data structure
 The joined SPLC Hate Map dataset covers the period from 2000 to 2023. It has 21,564 rows and 8 columns, and provides critical data into hate groups across the United States. Its structure includes variables like title, city, state, group, ideology, headquarters, statewide, and year. Evaluating this dataset against the FAIR principle of Reusability reveals strengths and opportunities for enhancement in usability and interoperability.
 
-### Strengths of the SPLC data: 
+### Strengths of the SPLC data
 The dataset contains information, including temporal (year) and geographic (city, state) variables, and classifications of hate group ideology (ideology). This could be useful for diverse applications, including spatiotemporal analysis and policy development. The aggregate data use to create the figures was created following tidy-data principles and it's saved as a csv file so it can be accessible and compatible with most statistical software and programming languages, including R, Python, and SPSS.
 
 ### Challenges to reusability
@@ -22,6 +22,10 @@ Finally, the geographic attributes city and state do not use standardized codes 
 4. Make the dataset available in multiple formats, such as CSV, JSON, and GeoJSON, to support a broader range of users and software tools.
 
 
+
 ## Number of Hate and Antigovernment Extremist Groups in the United States, 2000 - 2023
 
 ![Figure 1. Number of Hate and Antigovernment Extremist Groups in the United States, 2000 - 2023](figures/splc_year_state.svg)
+
+
+![Figure 2. Number of Hate and Antigovernment Extremist Groups in the United States by Ideology, 2000 - 2023](figures/splc_year_state_ideology.svg)
