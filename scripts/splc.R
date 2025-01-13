@@ -50,9 +50,13 @@ splcxstate <- splc %>%
   group_by(year, state) %>% 
   summarise(total = n())
 
+# write.csv(x = splcxstate, file = "~/GitHub/SPLC/data/SPLC_data_year_state.csv", row.names = F)
+
 splcx <- splc %>% 
   group_by(year, state, ideology) %>% 
   summarise(total = n())
+
+# write.csv(x = splcx, file = "~/GitHub/SPLC/data/SPLC_data_year_state_ideology.csv", row.names = F)
 
 # Plotting the data ----
 # Using ggplot2 to visualize the number of hate and antigovernment extremist groups in the US by year and state. 
