@@ -1,4 +1,4 @@
-# Southern Poverty Law Center Hatewatch
+# Southern Poverty Law Center Hatemap
 
 Each year since 1990, the SPLC has published an annual census of hate groups and antigovernment groups operating within the United States. The number is one barometer of the level of hate and antigovernment extremist activity in the country. The hate and antigovernment extremist map, which depicts the groups’ approximate locations, is the result of a year of monitoring by analysts and researchers and is published annually. The SPLC tracks both hate groups and antigovernment extremist groups – which, combined, make up some of the most extreme elements of the hard right. These groups often overlap and work alongside one another and often converge around a willingness to engage in political violence, either inflict or accept harm, and deny legally established rights to historically oppressed groups of people. Data is available at their website (https://www.splcenter.org/hate-map). 
 
@@ -33,7 +33,7 @@ Finally, the geographic attributes city and state do not use standardized codes 
 
 </br>
 
-## Number of Hate and Antigovernment Extremist Groups in the United States, 2000 - 2023
+## SPLC Identified Hate and Antigovernment Extremist Groups in the United States
 
 ![Figure 1. Number of Hate and Antigovernment Extremist Groups in the United States, 2000 - 2023](figures/splc_year_state.svg)
 </br>
